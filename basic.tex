@@ -1,0 +1,21 @@
+\subsection{常见函数的不定积分}
+\begin{enumerate}
+\item $\int ln|x|dx = ln|x|(x-1)+C$
+推导：
+\begin{equation}
+    \begin{split}
+        \int ln|x|dx &=xln|x|-\int \frac{1}{x}dx\\ 
+        &=ln|x|(x-1)+C
+    \end{split} 
+\end{equation}
+\item $\int xln|x|dx = $
+推导：
+\begin{equation}
+    \label{eq:base1}
+    \begin{split}
+        \int xln|x|dx &=\frac{1}{2}\int ln|x|dx^2\\ 
+        &=\frac{1}{2}(x^2ln|x|-\int x^2\cdot\frac{1}{x}dx\\ 
+        &=\frac{1}{2}(x^2ln|x|-\frac{1}{2}x)+C
+    \end{split}
+\end{equation}
+\end{enumerate}
